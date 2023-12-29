@@ -20,7 +20,7 @@ while true; do
 	fi
 
 	if ! [[ "$guess" =~ ^[0-9]$ ]]; then
-		echo "Invalid input. Please enter a number between 0 and 9."
+		echo "Invalid input. Please enter a number from 0 to 9 or q to quit"
 		continue
 	fi
 
